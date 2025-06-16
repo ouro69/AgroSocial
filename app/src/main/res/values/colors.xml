@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--Основные цвета -->
+    <color name="colorPrimary">#4CAF50</color>       <!-- Зеленый, символ природы -->
+   <color name="colorPrimaryDark">#388E3C</color>   <!-- Темно-зеленый -->
+   <color name="colorAccent">#CA7E42</color>        <!-- Желтый, акценты -->
+
+    <!-- Фон и текст -->
+    <color name="colorBackground">#2B9348</color>    <!-- фон -->
+    <color name="colorTextPrimary">#CA7E42</color>   <!-- Темный текст -->
+    <color name="colorTextSecondary">#388E3C</color> <!-- Второстепенный текст -->
+</resources>

@@ -1,0 +1,6 @@
+package com.example.agrosocial.TextDrawable
+
+include ':sample'
+
+include 'library'
+project(':library').projectDir = new File('library')

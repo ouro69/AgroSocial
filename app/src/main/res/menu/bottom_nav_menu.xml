@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feedFragment"
+        android:icon="@drawable/icon_feedfragment"
+        android:title="Лента" />
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/icon_mapfragment"
+        android:title="Карта" />
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/icon_chatfragment"
+        android:title="Чат" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/icon_profilefragment"
+        android:title="Профиль" />
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_backround_mane">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:lineSpacingExtra="5dp"
+        android:lines="2"
+        android:padding="24dp"
+        android:text="Добро пожаловать!"
+        android:textColor="#37894C"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/second_backround"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:text="Войти"
+            android:textColor="#FFFF99"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:text="Зарегистрироваться"
+            android:textSize="15sp"
+            android:textColor="#FFFF99"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="150dp"/>
+    </LinearLayout>
+</LinearLayout>
